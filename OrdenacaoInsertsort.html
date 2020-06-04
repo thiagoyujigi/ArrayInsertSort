@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Select Sort</title>
+</head>
+<body>
+	<!-- tag html informa ao navegador como ele deve interpretar o texto entre as tags
+	     Normalmente uma tag precisa ser aberta. Exemplo: <p> texto </p>
+
+	     h4 e h3 são títulos
+	     p cria paragrafo
+	     br coloca uma linha em branco (não tem fechamento)
+         b  negrito
+         i  itálico
+    -->
+
+	<h4>UNIT - Universidade Tiradentes</h4>
+	<h4>Disciplina: Algoritmo, Lógica de Programação e Estrutura de Dados</h4>
+	<p>Aluno(s): <b>Aaaaa Bbbbbbbbbb Ccccccc e Mmmmmm Nnnnnnn Pppppppp</b></p>
+	<br>
+    <h3 align="center">Método de Ordenação <i>Selection Sort</i></h3>
+	<br>
+
+	<P><b>Funcionamento:</b></P>
+  	<p>É um método de ordenação por <b>seleção</b></p>
+	<p>Consiste em ordenar a lista “selecionando” a cada iteração o menores itens possíveis e os colocam da esquerda para a direita.</p>
+    <p>Para cada elemento é necessário pecorrer o vetor a partir do elemento atual, necessitando para isso de dois loços: um para cada elemento da lista e outro para cada um desses elementos percorrer toda a lista.</p>
+	<br>
+
+	<!-- div cria uma divisão para fins de agrupamento
+		 table cria uma tabela
+		 tr cria uma coluna na tabela
+		 td cria uma céluna na linha
+
+		img para inserir imagem
+		embed para inserir video
+		    src para informar o nome da imagem/video
+		    height para dimencionar a altura da imagem/video
+		    width  para dimensionar o largura da imagem/video
+		    autostart para definir se o vídeo deve tocar automaticamente
+	-->
+
+	<div align="center"><CENTER>
+	<table border="1">
+    	<tr align="center">
+        	<td>Representação Gráfica</td>
+        	<td>Animação</td>
+        	<td>Vídeo</td>
+    	</tr>
+    	<tr align="center">
+        	<td><img src="SelectionSort_Imagem.jpg" height="300"></td>
+        	<td><img src="SelectionSort_Animacao.gif" height="150"></td>
+        	<td><embed src="SelectionSort_Video.mp4" autostart="false" height="200" width="300"></td>
+    	</tr>
+	</table>
+	</CENTER></div>
+
+    <!-- ul cria uma lista. 
+         li cria um item da lista
+    -->
+	<br>
+	<P><b>Vantagens:</b></P>
+    <ul> 
+        <li>Fácil para implementar</li>
+		<li>Não necessita de um vetor auxiliar</li>
+		<li>Ocupa menos memória</li>
+		<li>Boa performance em vetores pequenos</li>
+	</ul>
+
+	<p><b>Desvantagens:</b></p>
+	<ul>
+		<li>Lento em vetores grandes</li>
+		<li>Algoritmo não é estável (não preserva a ordem relativa dos elementos iguais)</li>
+		<li>Faz sempre a mesma quantidade de comparações, mesmo que o do vetor já esteja ordenado</li>
+	</ul>
+	<br>
+
+	<p><b>Implementação:</b></p>
+   	<img src="SelectionSort_Implem.jpg">
+	<br>
+
+	<!-- a define hiperlink
+	       href define a url 
+	-->
+	<p><b>Referências:</b></p> 
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Selection_sort/">https://pt.wikipedia.org/wiki/Selection_sort/</a></li>
+        <li><a href="https://www.codeflow.site/pt/article/stable-sorting-algorithms">https://www.codeflow.site/pt/article/stable-sorting-algorithms</a></li>
+       <li><a href="https://pt.khanacademy.org/computing/computer-science/algorithms/sorting-algorithms/a/selection-sort-pseudocode">https://pt.khanacademy.org/computing/computer-science/algorithms/sorting-algorithms/a/selection-sort-pseudocode</a></li>
+        <li><a href="https://www.geeksforgeeks.org/selection-sort/">https://www.geeksforgeeks.org/selection-sort/</a></li>
+    </ul>
+
+</body>
+</html>
